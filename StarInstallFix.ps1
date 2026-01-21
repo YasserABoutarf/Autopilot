@@ -1,9 +1,9 @@
-$installerPath1 = "\\bos-monitor2\APPS\Apps\General Software\Star\2016.2.0.3\StarAdmin\Star Admin install path\Required objects\SQLSysClrTypes.msi"
-$installerPath2 = "\\bos-monitor2\APPS\Apps\General Software\Star\2016.2.0.3\SSRS Reporting\SSRS Support pack\Run Second\ReportViewer.msi"
-$installerPath3 = "\\bos-monitor2\APPS\Apps\General Software\Star\2016.2.0.3\CrystalRuntime\CRRuntime_32bit_13_0_5.msi"
-$installerPath4 = "\\bos-monitor2\APPS\Apps\General Software\Star\2018 Spring\StarScheduling\setup.exe"
-$installerPath5 = "\\bos-monitor2\APPS\Apps\General Software\Star\2023 Spring\StarPDM\Star Americas install path\Disk1\Disk1\US\StarPDM.msi"
-$installerPath6 = "\\bos-monitor2\APPS\Apps\General Software\Star\sqlncli.msi"
+$installerPath1 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\SQLSysClrTypes.msi"
+$installerPath2 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\ReportViewer.msi"
+$installerPath3 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\CRRuntime_32bit_13_0_5.msi"
+$installerPath4 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\setup.exe"
+$installerPath5 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\StarPDM.msi"
+$installerPath6 = "F:\ADMIN\IS - Public\IS Department Team Folders\Yasser B\Star Installs\sqlncli.msi"
 
 #SQLSysClrTypes Install
 If(Test-Path $installerPath1) {
